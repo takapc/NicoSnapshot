@@ -1,0 +1,17 @@
+{
+    "name": "nico-snapshot",
+    "version": "0.1.4",
+    "description": "A powerful niconico api client",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "dependencies": {
+        "typescript": "^5.1.6"
+    },
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build",
+        "dev": "tsc && node dist/index.js"
+    },
+    "author": "takap_c",
+    "license": "MIT"
+}
